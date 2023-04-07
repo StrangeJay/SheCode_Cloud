@@ -1,0 +1,36 @@
+# Provisioning an EC2 server and creating an s3 bucket 
+
+## Provisioning an EC2 server with Ubuntu AMI 
+- Sign into your AWS account, search for EC2 and go top the EC2 page. 
+
+- Click on **"Launch Instance"** 
+
+
+- You'll be taking to a setup page. Choose the name of your instance, and select the operating system you would like to use for the EC2 server. I chose an Ubuntu AMI with free tier enabled so i don't get charged as long as i keep the use of the server under 750hours.
+
+
+- Create a keypair for your EC2 server if you plan to ssh into it. You can use the .pem for open ssh from your devices terminal, or the .ppk for putty.
+
+
+- I left the default VPC and Subnet, but i created a security group that allows ssh traffic from anywhere. My EC2 server is not accessible through the internet, because i didn't allow http and https access to it. 
+
+
+- I reviewed my settings in the summary page and i launched the instance. 
+
+
+### SSH Into the EC2 Instance
+- I waited for my EC2 instance to be created and show the 2/2 status check. Then i clicked into the instance. 
+
+- I clicked on connect to take me to the **"connect to instance"** page. 
+
+
+- I copied the ssh client connection command. 
+
+
+- I went to "downloads" on my file manager, and i opened the folder in my terminal.  
+
+
+- I pasted the copied ssh client connection command into the terminal, clicked **yes** to accept connection.  
+
+
+- VOILA!!! I have been connected to my ubuntu server. I tested it out by running a few commands to create a directory and a file and move the file into the directory. 
