@@ -134,3 +134,5 @@ after typing, save your policy.
 - Voila!!! Your static website is up and running. If you have a domain name you can set it up to use that instead of the AWS given endpoint.   
 ![functioning website](https://user-images.githubusercontent.com/105195327/230636740-eb546373-3806-486f-9139-80bac1bd1e0a.png)   
 
+
+*This is the [endpoint](http://shecodekaneki.s3-website-us-east-1.amazonaws.com) to the website, i'll leave it running for 3days, for whoever wants to check it out.*  
