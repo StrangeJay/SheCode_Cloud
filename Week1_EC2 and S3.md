@@ -114,6 +114,9 @@
   ]
 }
 ```   
+> **Note** Be sure to replace the doc example bucket arn with the arn of your bucket.  
+
+
 after typing, save your policy.   
 
 ![added policy](https://user-images.githubusercontent.com/105195327/230636102-cde4bbe9-35d6-42f9-aafc-0d96cb693214.png)   
